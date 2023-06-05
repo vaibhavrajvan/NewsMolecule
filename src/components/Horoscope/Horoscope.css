@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap");
+
+.horoscope-container {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horoscope-sign {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: brown;
+}
+
+.card-text {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.select-sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horoscope-card {
+  padding: 20px;
+  border: 2px solid rgba(76, 74, 74, 0.6);
+  max-width: 500px;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  /* box-shadow: 5px salmon; */
+
+  background: rgb(231, 104, 97);
+  background: linear-gradient(
+    90deg,
+    rgb(251, 162, 157) 0%,
+    rgb(253, 118, 145) 40%
+  );
+}
+
+.horoscope-card-content {
+  color: black;
+}
+
+h3 {
+  margin-top: 3px;
+}
